@@ -1,0 +1,108 @@
+.crew_container{
+    position: relative;
+    height: 100vh;
+    background-image: url(../../image/crewbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+.crew_heading{
+    margin-top: 20px;
+    margin-left: 130px;
+    
+}
+.crew_heading h3{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-family: Barlow Condensed;
+    letter-spacing: 4.72px;
+}
+
+.crew_heading span{
+    font-weight: 700;
+    opacity: 25%;
+    margin-right: 20px;
+}
+.crew_content_container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: 65vh;
+    padding-bottom: 40px;
+    
+}
+
+.crew_content {
+    margin-top: 40px;
+}
+.crew_content h4{
+    font-family: Bellefair;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+
+}
+.crew_content h1{
+    font-family: Bellefair;
+    font-size: 56px;
+   font-weight: 400;
+   line-height: 64px;
+   letter-spacing: 0px;
+   text-align: left;
+   color: rgba(255, 255, 255, 1);
+   margin: 20px 0 10px 0;
+   text-transform: uppercase;
+
+}
+.crew_content p{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(208, 214, 249, 1);
+    max-width: 500px;
+   
+}
+.crew_image_container{
+    height: 120%;
+     width: 50%;
+     position: absolute;
+     top: -80px;
+     right: 0;
+}
+.crew_image{
+     height: 100%;
+     width: 100%;
+     object-fit: contain;
+     
+}
+.icons{
+    color:  rgba(255, 255, 255, 1);
+    opacity: 17.44%;
+    font-size: 20px;
+}
+.icons-active{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+}
+/**  background: rgba(255, 255, 255, 1); **/
+.crew-icons{
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width:1156px) {
+    
+}

@@ -1,0 +1,219 @@
+.destination_container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../image/destinationbg.jpg);
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    
+}
+.destination_heading_container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+}
+.destination_heading{
+    margin-top: 0px;
+}
+.destination_heading h3{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-family: Barlow Condensed;
+    letter-spacing: 4.72px;
+}
+
+.destination_heading span{
+    font-weight: 700;
+    opacity: 25%;
+    margin-right: 20px;
+}
+
+.nav_links{
+    color: rgba(208, 214, 249, 1); 
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    /*border-bottom: 3px solid rgba(255, 255, 255, 1);*/
+    padding: 20px 0;
+    transition: all 0.5s linear;
+}
+.link{
+    margin: 0 20px;
+}
+.destination_links{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 80px;
+    margin-right: 75px;
+}
+.destination_content_container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.destination_image{
+    margin: 0;
+    width: 50%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.destination-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 115px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.destination-text{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: rgba(208, 214, 249, 1);
+    max-width: 400px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.destination_horizontal_line{
+   background-color: #262834;
+    height: 0px;
+    width: 430px;
+    opacity: 25%;
+
+}
+.destination-content-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.destination-content-footer-content{
+    line-height: 0;
+}
+.destination-content-footer-content p{
+    font-family: Barlow Condensed;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 2.362499952316284px;
+    text-align: left;
+    color: rgba(208, 214, 249, 1);
+    text-transform: uppercase;
+}
+.destination-content-footer-content h4{
+    font-family: Bellefair;
+    font-size: 28px;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.links-show{
+  display: none;
+}
+
+@media screen and (max-width:945px) {
+    .destination_heading_container{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0px 20px;
+        flex-direction: column;
+    }
+    .links-hide{
+        display: none;
+    }
+    .links-show{
+       display: block;
+       margin: 0 auto
+    }
+    .links-show .destination_links{
+        margin-right: 0;
+    }
+   
+    .destination-title{
+       font-size: 80px;
+       text-align: center;
+       line-height: 91px;
+    }
+    .destination_content_container{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .destination_image{
+        margin: 20px auto 0 auto;
+        height: 250px;
+    }
+    .destination_content{
+        margin: 0 auto;
+        display: block;
+    }
+   
+    .destination-text{
+        max-width: 650px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .destination-content-footer{
+        margin: 0 auto;
+        width: 70%;
+        
+    }
+    .destination_horizontal_line{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:650px) {
+    .links-show .destination_links{
+        margin-top: 0;
+    }
+    .destination-content-footer{
+       flex-direction: column;
+    }
+    .destination-content-footer-content{
+        margin: 0 auto;
+    }
+   
+    .destination-content-footer-content p{
+        text-align: center;
+        
+    }
+    .destination-content-footer-content h4{
+        text-align: center;
+    }
+    
+    
+}
+
+@media screen and (max-width:500px) {
+    .destination_heading{
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+    .destination_heading h3{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .destination_image{
+        margin-bottom: 0;
+    }
+   
+}

@@ -1,0 +1,133 @@
+.tech_container{
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(../../image/technologybg.jpg);
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    
+}
+
+.tech_heading{
+    margin-top: 20px;
+    margin-left: 130px;
+    
+}
+.tech_heading h3{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-family: Barlow Condensed;
+    letter-spacing: 4.72px;
+    text-transform: uppercase;
+}
+
+.tech_heading span{
+    font-weight: 700;
+    opacity: 25%;
+    margin-right: 20px;
+}
+
+.tech_content_container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    position: relative;
+    margin-top: 60px;
+}
+.tech_content_info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-top: 30px;
+   
+}
+.tech_count_container{
+    display: flex;
+    flex-direction: column;
+}
+.tech_count{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.tech_count h4{
+    font-family: Bellefair;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.filled{
+    background-color: #FFFFFF;
+    color: rgba(11, 13, 23, 1);
+}
+.not_filled{
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #FFFFFF !important;
+}
+.not_filled:hover{
+    background-color: #FFFFFF;
+    opacity: 25%;
+    color: rgba(11, 13, 23, 1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+.tech_content{
+    margin-left: 30px;
+}
+.tech_content h4{
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2.700000047683716px;
+    text-align: left;
+    color: #D0D6F9;
+    text-transform: uppercase;
+}
+.tech_content h1{
+    font-family: Bellefair;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 15px 0;
+    padding: 0;
+
+}
+.tech_content p{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(208, 214, 249, 1);
+    max-width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.tech_image_container{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 0;
+    top: -50px;
+}
+.tech_image{
+    width: 80%;
+     object-fit: contain;
+}
