@@ -11,7 +11,7 @@ const GetCrewInfo = ({title, name, content, image, id}) => {
       <div className='crew_heading'>
           <h3><span>02</span>Meet Your Crew</h3>
       </div>
-      <div className='crew_content_container'>
+      <div className='crew_content_container' >
           <div className='crew_content_inner_container'>
               <div className='crew_content'>
                   <h4>{title}</h4>
@@ -25,7 +25,8 @@ const GetCrewInfo = ({title, name, content, image, id}) => {
               </div>
           </div>
           <div className="crew_image_container">
-            <img src={image} alt='commander' className='crew_image'/>
+            <img src={image} alt='commander' className='crew_image'
+            />
           </div>
       </div>
               

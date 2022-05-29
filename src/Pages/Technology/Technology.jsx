@@ -22,13 +22,14 @@ const Technology = () => {
         }
 
   return (
-    info && <div className='tech_container'>
+    info && <div className='tech_container'  data-aos="fade-up"
+    >
       <Navbarfilter/>
       <div className='tech_heading'>
           <h3><span>03</span>Space launch 101</h3>
       </div>
         <div className='tech_content_container'>
-          <div className='tech_content_info'>
+           <div className='tech_content_info'>
                <div className='tech_count_container'>
                    <span id='0' onClick={changeDisplay} className={info.idx ==='0'?'tech_count filled': 'tech_count not_filled'}><h4>1</h4></span>
                    <span id='1' onClick={changeDisplay} className={info.idx ==='1'?'tech_count filled': 'tech_count not_filled'}><h4>2</h4></span>
@@ -39,7 +40,7 @@ const Technology = () => {
                   <h1>{info.title}</h1>
                   <p>{info.content}</p>
               </div>
-          </div>
+           </div>
           <div className='tech_image_container'>
               <img className='tech_image' src={info.image} alt='launchImage'/>
           </div>

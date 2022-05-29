@@ -32,6 +32,7 @@ a{
     width: 100%;
 }
 
+
 .navbar_links_container{
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -57,6 +58,10 @@ a{
     margin:  0 20px;
     padding: 30px 0;
     transition: all 0.5s linear;
+}
+.home_links_container{
+    margin-top: -20px;
+    padding-top: 30px;
 }
 .sidebar-container{
     display: none;
@@ -190,6 +195,7 @@ a{
        background-image: url(../../image/sidebarBg.png);
        background-repeat: no-repeat;
        background-size: cover;
+       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     }
     .close-btn{
         float: right;
@@ -219,21 +225,29 @@ a{
         color: #fff;
         margin-right: 10px;
         opacity: 100% !important;
+        transition: all .5s linear;
     }
     .links-nav{
         font-size: 16px;
         line-height: 19px;
         letter-spacing: 2.7px;
         text-transform: uppercase;
-        transition: all 0.5s linear;
-       
     }
     .links-nav li{
         color: rgba(255, 255, 255, 0.646);
         font-family: Barlow Condensed;
         font-weight: 200;
-        padding: 20px 0;
-        margin:  5px 10px;
+        padding: 20px ;
+        margin:  8px -40px;
+        list-style: none;
+        transition: all .5s linear;
+    }
+     .links-nav li:hover{
+        background-color:rgba(255, 255, 255, 0.943) ;
+        color: rgba(0, 0, 0, 0.788);
+    }
+    .links-nav li:hover span{
+        color: rgba(0, 0, 0, 0.788);
     }
 }
 

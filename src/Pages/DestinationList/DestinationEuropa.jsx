@@ -4,8 +4,17 @@ import { NavLink } from 'react-router-dom'
 
 const DestinationEuropa = () => {
   return (
-    <div className='destination_content_container'>
-       <img src={europa} alt='moon' className='destination_image'/>
+    <div 
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="5000"
+        className='destination_content_container'>
+       <img src={europa} alt='moon' className='destination_image'
+          data-aos="zoom-in-down"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="3000" 
+       />
        <div className='destination_links_container links-show'>
              <ul className='destination_links'>
                  <NavLink className='nav_links' to='/destination/moon' end  style={({ isActive }) => 
@@ -19,8 +28,9 @@ const DestinationEuropa = () => {
              </ul>
         </div>
         <div className='destination_content'>
-           <h1 className='destination-title'>Europa</h1>
-             <p className='destination-text'>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, 
+           <h1 data-aos="zoom-in-up" data-aos-easing="linear"
+              data-aos-duration="1500"  className='destination-title'>Europa</h1>
+             <p data-aos="zoom-in-down" data-aos-duration="1500" className='destination-text'>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, 
                  hockey, or simple relaxation in your snug wintery cabin.
                </p>
               <hr className='destination_horizontal_line'></hr>

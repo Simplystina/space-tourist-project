@@ -17,7 +17,7 @@ const Crew = () => {
   if(crewInfo){
     
     return (
-      <div className='crew_container' >
+      <div className='crew_container' data-aos='fade-in' >
          <Navbarfilter  />
         
         <Swiper

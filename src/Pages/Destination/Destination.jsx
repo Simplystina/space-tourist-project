@@ -7,7 +7,10 @@ import './Destination.css'
 
 const Destination = () => {
   return (
-    <div className='destination_container'>
+    <div className='destination_container'
+        data-aos="fade-up"
+        data-aos-easing="linear"
+    >
       <Navbarfilter  />
       <div className='destination_heading_container'>
         <div className='destination_heading'>

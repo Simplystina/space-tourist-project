@@ -85,8 +85,11 @@
 
 .tech_content{
     margin-left: 30px;
-    max-width: 500px;
+    max-width: 550px;
+    transition: all 2s linear;
 }
+
+  
 .tech_content h4{
     font-family: Barlow Condensed;
     font-size: 16px;
@@ -133,6 +136,14 @@
 .tech_image{
     width: 80%;
      object-fit: contain;
+}
+@media screen and (max-width:1205px){
+    .tech_content_info{
+        margin-left: 100px;
+    }
+    .tech_heading{
+        margin-left: 100px;
+    }
 }
 
 @media screen and (max-width:1170px){

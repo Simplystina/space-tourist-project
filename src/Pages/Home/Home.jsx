@@ -6,18 +6,25 @@ import background_image from '../../image/background.png'
 
 const Home = () => {
   return (
-    <div className='home_container'>
+    <div  data-aos='fade-up' className='home_container'>
         <Navbar background_image={background_image}/>
-        <div className='home_content_container'>
+        <div className='home_content_container' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
            <div className='home_content'>
               <h4>So, you want to travel to</h4>
               <h1>Space</h1>
-              <p>Let’s face it; if you want to go to space, you might 
+              <p
+               data-aos="zoom-in"
+               data-aos-easing="linear"
+               data-aos-duration="1500"
+              >Let’s face it; if you want to go to space, you might 
                   as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because 
                   we’ll give you a truly out of this world experience!
               </p>
             </div>
-            <div className='explore_container'><img src={explore} alt='explore' className='explore'/></div>
+            <div className='explore_container'
+             data-aos="flip-in"
+            ><img 
+             src={explore} alt='explore' className='explore'/></div>
         </div>
     </div>
   )

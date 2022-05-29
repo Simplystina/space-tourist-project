@@ -4,8 +4,16 @@ import { NavLink } from 'react-router-dom'
 
 const DestinationMars = () => {
   return (
-    <div className='destination_content_container'>
-      <img src={mars} alt='moon' className='destination_image'/>
+    <div data-aos="zoom-in"
+         data-aos-easing="linear"
+        data-aos-duration="5000"
+        className='destination_content_container'>
+      <img src={mars} alt='moon' className='destination_image'
+         data-aos="zoom-in-down"
+         data-aos-anchor="#example-anchor"
+         data-aos-offset="500"
+         data-aos-duration="3000"  
+      />
       <div className='destination_links_container links-show'>
              <ul className='destination_links'>
                  <NavLink className='nav_links' to='/destination/moon' end  style={({ isActive }) => 
@@ -19,8 +27,9 @@ const DestinationMars = () => {
              </ul>
         </div>
       <div className='destination_content'>
-         <h1 className='destination-title'>Mars</h1>
-            <p className='destination-text'>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. 
+         <h1 data-aos="zoom-in-up" data-aos-easing="linear"
+           data-aos-duration="1500" className='destination-title'>Mars</h1>
+            <p data-aos="zoom-in-down" data-aos-duration="1500"  className='destination-text'>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. 
                 It’s two and a half times the size of Everest!
             </p>
             <hr className='destination_horizontal_line'></hr>
