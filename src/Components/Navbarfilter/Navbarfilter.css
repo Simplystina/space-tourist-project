@@ -10,8 +10,6 @@
         width: 62%;
     }
 }
-@media screen and (max-width:945px) {
-    .filter{
-        width: 63%;
-    }
+@media screen and (max-width:946px) {
+   
 }

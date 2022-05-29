@@ -1,8 +1,8 @@
 .previous-btn{
-    position: absolute;
+    position: fixed;
     left: 3%;
     top: 50%;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 50%;
     z-index: 20;
     text-align: center;
@@ -10,12 +10,16 @@
 
 }
 .next-btn{
-    position: absolute;
+    position: fixed;
     right: 3%;
     top: 50%;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 50%;
     z-index: 20;
     text-align: center;
     color: whitesmoke;
+}
+
+@media screen and (max-width:900px){
+
 }

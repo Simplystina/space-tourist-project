@@ -1,14 +1,14 @@
 import React from 'react'
 import { Outlet, NavLink } from 'react-router-dom'
-import { Navbar } from '../../Components'
-import background_image from '../../image/background2.png'
+import { Navbarfilter } from '../../Components'
+
 
 import './Destination.css'
 
 const Destination = () => {
   return (
     <div className='destination_container'>
-      <Navbar background_image={background_image}/>
+      <Navbarfilter  />
       <div className='destination_heading_container'>
         <div className='destination_heading'>
           <h3><span>01</span>Pick your destination</h3>

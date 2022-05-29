@@ -8,7 +8,7 @@ const GetCrewInfo = ({title, name, content, image, id}) => {
    
 
   return (
-    <div>
+    <div className='crew_info_container'>
       <div className='crew_heading'>
           <h3><span>02</span>Meet Your Crew</h3>
       </div>
@@ -24,10 +24,10 @@ const GetCrewInfo = ({title, name, content, image, id}) => {
                     crewData.map((item, idx)=><VscCircleFilled className={idx==id? 'icons-active' : 'icons'}/>)
                 }
               </div>
-            </div>
-            <div className="crew_image_container">
-              <img src={image} alt='commander' className='crew_image'/>
-            </div>
+          </div>
+          <div className="crew_image_container">
+            <img src={image} alt='commander' className='crew_image'/>
+          </div>
       </div>
               
     </div>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Technology.css'
-import { Navbarfilter, TechCount } from '../../Components'
-import launchImage from '../../image/launch.png'
+import { Navbarfilter } from '../../Components'
 import { TechData } from '../../Components/DataList/TechData'
 
 

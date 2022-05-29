@@ -7,8 +7,8 @@
     overflow-y: scroll;
 }
 .crew_heading{
-    margin-top: 20px;
-    margin-left: 130px;
+    width: 80%;
+    margin: 20px auto 0 auto;
     
 }
 .crew_heading h3{
@@ -38,6 +38,7 @@
 
 .crew_content {
     margin-top: 40px;
+    max-width: 550px;
 }
 .crew_content h4{
     font-family: Bellefair;
@@ -72,7 +73,7 @@
     letter-spacing: 0px;
     text-align: left;
     color: rgba(208, 214, 249, 1);
-    max-width: 500px;
+    
    
 }
 .crew_image_container{
@@ -103,6 +104,113 @@
 }
 
 
-@media screen and (max-width:1156px) {
+@media screen and (max-width:1140px) {
+    .crew_image_container{
+        height: 100%;
+         width: 40%;
+         position: absolute;
+         top: -80px;
+         right: -80px;
+         margin: 50px;
+    }
+    .crew_content{
+        max-width: 600px;
+    }
+}
+@media screen and (max-width:1060px) {
+    .crew_content_container{
+        width: 87%;
+    }
+    .crew_heading{
+        width: 87%;
+    }
+    .crew_content{
+        max-width: 500px;
+    }
+}
+@media screen and (max-width:900px) {
     
+    .crew_image_container{
+        position: unset;
+        margin: 0 auto;
+
+    }
+    .crew_image{
+        margin-top: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        
+   }
+    .crew_content_container{
+        height: auto;
+        flex-direction: column;
+        margin: 0 auto 0 auto;
+        padding-bottom: 0;
+        position: relative;
+
+    }
+    .crew_content{
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .crew_content h1, .crew_content p, .crew_content h4{
+        text-align: center;
+    }
+    .crew_content h1{
+        font-size: 40px;
+        line-height: 45.58px;
+    }
+    .crew_content p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .crew_content h4{
+        font-size: 24px;
+        line-height: 27.5px;
+    }
+    .crew-icons{
+        text-align: center;
+    }
+    .crew_heading h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .crew_heading{
+        text-align: center;
+    }
+    .crew_content_container{
+        flex-direction: column-reverse;
+    }
+    .crew_content_inner_container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .crew_content h1{
+        font-size: 24px;
+        line-height: 27.58px;
+    }
+    .crew_content p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .crew_content h4{
+        font-size: 16px;
+        line-height: 18.34px;
+    }
+    .crew-icons{
+        text-align: center;
+        margin: 20px 0 0px 0;
+    }
+    .crew_heading h3{
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+    .crew_image_container{
+        width: 50%;
+    }
 }
