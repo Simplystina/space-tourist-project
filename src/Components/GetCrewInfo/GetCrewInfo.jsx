@@ -1,5 +1,4 @@
 import React from 'react'
-import {MdArrowBackIos, MdArrowForwardIos} from 'react-icons/md'
 import {VscCircleFilled} from 'react-icons/vsc'
 import { crewData } from '../DataList/CrewData'
 
@@ -21,7 +20,7 @@ const GetCrewInfo = ({title, name, content, image, id}) => {
               </div>
               <div className='crew-icons'>
                 {
-                    crewData.map((item, idx)=><VscCircleFilled className={idx==id? 'icons-active' : 'icons'}/>)
+                    crewData.map((item, idx)=><VscCircleFilled key={item} className={idx===id? 'icons-active' : 'icons'}/>)
                 }
               </div>
           </div>

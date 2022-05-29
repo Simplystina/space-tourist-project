@@ -1,13 +1,12 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './Navbarfilter.css'
 import star from '../../image/Star.svg'
-import line from '../../image/straight_line.png'
 import { NavLink } from 'react-router-dom'
 import {AiOutlineMenu} from 'react-icons/ai'
 import {MdClose} from 'react-icons/md'
 
 const Navbarfilter = () => {
-  const [showSidebar, setShowSidebar] = useState(false)
+
 
   const open = ()=>{
     document.getElementById("sidebar").style.width = "15rem"; 

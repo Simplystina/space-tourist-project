@@ -126,7 +126,7 @@
 .tech_image_container{
     position: absolute;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     right: 0;
     top: -50px;
 }

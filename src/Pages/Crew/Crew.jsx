@@ -1,15 +1,8 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
-
-// import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard ,Scrollbar, A11y} from "swiper";
-import { useSwiper} from 'swiper/react';
 
 import {Navbarfilter, SlideNextButton, SlidePrevButton, GetCrewInfo} from '../../Components'
 import './Crew.css'
@@ -17,15 +10,10 @@ import './Crew.css'
 import { crewData } from '../../Components/DataList/CrewData'
 
 const Crew = () => {
-  const [id, setId] = useState(0)
-  const [crewInfo, setCrewInfo] = useState(crewData[id])
-  const swiper = useSwiper()
+  const id = 0
+  const crewInfo  = crewData[id]
   
-  const swipe = ()=>{
-    console.log('Okayyyyyyyy')
-    swiper.slideNext()
-    console.log("Swipeddddd")
-  }
+  
   if(crewInfo){
     
     return (

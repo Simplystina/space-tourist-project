@@ -1,12 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Navbar.css'
 import star from '../../image/Star.svg'
 import { NavLink } from 'react-router-dom'
 import {AiOutlineMenu} from 'react-icons/ai'
 import {MdClose} from 'react-icons/md'
 const Navbar = ({background_image}) => {
-
-  const [showSidebar, setShowSidebar] = useState(false)
 
   const open = ()=>{
     document.getElementById("sidebar").style.width = "15rem"; 
