@@ -3,6 +3,7 @@ import './Home.css'
 import { Navbar } from '../../Components'
 import explore from '../../image/explore.png'
 import background_image from '../../image/background.png'
+import { NavLink } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -21,10 +22,9 @@ const Home = () => {
                   we’ll give you a truly out of this world experience!
               </p>
             </div>
-            <div className='explore_container'
-             data-aos="flip-in"
-            ><img 
-             src={explore} alt='explore' className='explore'/></div>
+            <div className='explore_container' data-aos="flip-in">
+               <NavLink to='/destination/moon'><img src={explore} alt='explore' className='explore'/></NavLink>
+            </div>
         </div>
     </div>
   )

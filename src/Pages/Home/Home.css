@@ -20,14 +20,34 @@
     margin-left: 90px;
     max-width: 550px;
 }
-.explore{
+
+.explore_container{
+    background-color: antiquewhite;
+}
+  .explore {
     width: 200px;
     height: 200px;
     object-fit: cover;
     position: absolute;
     bottom: 14%; 
     right: 7%;
-}
+    z-index: 1;
+    color: #1a1a1a;
+    background: #FFFFFF;
+    border-radius: 50%;
+    border: none;
+    transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
+  }
+  .explore:after {
+    content: "";
+    font-size: 2.5em;
+    line-height: 1.1em;
+
+  }
+  .explore:hover {
+    box-shadow: 0 0 1px 15px rgba(235, 232, 233, 0.087), 0 0 1px 30px rgba(244, 239, 241, 0.132), 0 0 1px 45px rgba(138, 59, 88, 0.1);
+  }
+  
 .home_content h4{
     color: rgba(208, 214, 249, 1);
     font-family: Barlow;
