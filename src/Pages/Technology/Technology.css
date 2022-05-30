@@ -1,11 +1,9 @@
 .tech_container{
     position: relative;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-image: url(../../image/technologybg.jpg);
     background-repeat: no-repeat;
-    overflow-y: scroll;
-    
 }
 
 .tech_heading{

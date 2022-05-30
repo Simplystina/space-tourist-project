@@ -6,10 +6,15 @@ const Sidebar = () => {
 
     const open = ()=>{
         document.getElementById("sidebar").style.width = "15rem"; 
+        
       }
       const close = ()=>{
         document.getElementById("sidebar").style.width = "0"; 
+       
       }
+
+
+      
       const node = useRef();
     const handleClick = e => {
         if(window.innerWidth <=586){

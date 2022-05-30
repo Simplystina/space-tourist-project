@@ -1,10 +1,10 @@
 .crew_container{
     position: relative;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background-image: url(../../image/crewbg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: scroll;
 }
 .crew_heading{
     width: 80%;
@@ -31,7 +31,6 @@
     width: 80%;
     margin: 0 auto;
     position: relative;
-    height: 65vh;
     padding-bottom: 40px;
     
 }

@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div  data-aos='fade-up' className='home_container'>
+    <div  data-aos='fade-up' className='home_container' id='home_container'>
         <Navbar background_image={background_image}/>
         <div className='home_content_container' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
            <div className='home_content'>

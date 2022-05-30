@@ -1,10 +1,8 @@
 .destination_container{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: url(../../image/destinationbg.jpg);
     background-repeat: no-repeat;
-    overflow-y: scroll;
-    
 }
 .destination_heading_container{
     display: flex;
@@ -140,10 +138,13 @@
     }
     .links-show{
        display: block;
+       width: 100%;
        margin: 0 auto
     }
     .links-show .destination_links{
         margin-right: 0;
+        display: flex;
+        justify-content: space-between;
     }
    
     .destination-title{
@@ -163,6 +164,7 @@
     .destination_content{
         margin: 0 auto;
         display: block;
+        width: 100%;
     }
    
     .destination-text{
@@ -216,4 +218,21 @@
         margin-bottom: 0;
     }
    
+}
+@media screen and (max-width:360px) {
+    .links-show .nav_links{
+        font-size: 12px;
+    }
+    .destination_heading span{
+        margin-right: 10px;
+    }
+    .destination-title{
+        font-size: 60px;
+    }
+    
+}
+@media screen and (max-width:297px) {
+    .destination-title{
+        font-size: 55px;
+    }
 }

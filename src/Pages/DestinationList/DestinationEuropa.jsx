@@ -19,11 +19,11 @@ const DestinationEuropa = () => {
              <ul className='destination_links'>
                  <NavLink className='nav_links' to='/destination/moon' end  style={({ isActive }) => 
                       (isActive ? {borderBottom: '3px solid rgba(255, 255, 255, 1)'} : {borderBottom: 'none'})}><li>Moon</li></NavLink>
-                 <NavLink className='nav_links link' to='/destination/mars' end  style={({ isActive }) => 
+                 <NavLink className='nav_links' to='/destination/mars' end  style={({ isActive }) => 
                       (isActive ? {borderBottom: '3px solid rgba(255, 255, 255, 1)'} : {borderBottom: 'none'})} ><li >Mars</li></NavLink>
-                 <NavLink className='nav_links link' to='/destination/europa' end  style={({ isActive }) => 
+                 <NavLink className='nav_links' to='/destination/europa' end  style={({ isActive }) => 
                       (isActive ? {borderBottom: '3px solid rgba(255, 255, 255, 1)'} : {borderBottom: 'none'})}><li>Europa</li></NavLink>
-                 <NavLink className='nav_links link' to='/destination/titan' end style={({ isActive }) => 
+                 <NavLink className='nav_links' to='/destination/titan' end style={({ isActive }) => 
                       (isActive ? {borderBottom: '3px solid rgba(255, 255, 255, 1)'} : {borderBottom: 'none'})}><li>Titan</li></NavLink>
              </ul>
         </div>

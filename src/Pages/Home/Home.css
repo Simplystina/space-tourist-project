@@ -21,9 +21,8 @@
     max-width: 550px;
 }
 
-.explore_container{
-    background-color: antiquewhite;
-}
+
+
   .explore {
     width: 200px;
     height: 200px;
@@ -45,7 +44,7 @@
 
   }
   .explore:hover {
-    box-shadow: 0 0 1px 15px rgba(235, 232, 233, 0.087), 0 0 1px 30px rgba(244, 239, 241, 0.132), 0 0 1px 45px rgba(138, 59, 88, 0.1);
+    box-shadow: 0 0 1px 15px rgba(235, 232, 233, 0.16), 0 0 1px 30px rgba(244, 239, 241, 0.132), 0 0 1px 45px rgba(255, 250, 252, 0.1);
   }
   
 .home_content h4{
@@ -79,13 +78,13 @@
 
 @media screen and (max-width:945px) {
     .home_container{
-        height: 100vh;
+        height: 100%;
         width: 100%;
         background-image: url(../../image/tabletView2.png), url(../../image/tabletView1.png);
         background-repeat: no-repeat, no-repeat;
         background-size: cover, cover;
         background-position: 100% 250px, 100% 100%;
-        overflow-y: scroll;
+        
     }
     .home_content_container{
          flex-direction: column;
